@@ -1,0 +1,574 @@
+/*CSS NOSOTROS*/
+@media (max-width:618px)
+{
+    
+    /*Header*/
+    .botonera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul li{
+            margin-right: 16px;
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+    .navbar-brand{
+        display: contents;
+        .logo-nav{
+            width: 74%;
+        }
+    }    
+    /*  MAIN  */
+   
+    .nosotros{
+        margin: 30px;
+        padding: 10px;
+        font-size: 1.5rem;
+        color: $white;
+        display: block;
+        .quienesSomos{
+            text-align: center;
+            h2{
+                color: $secondaryColor;
+                text-align: center;
+                font-size: 2.2rem;
+                padding: 5px;
+            }
+            .fotoMessi{
+                width: 100%;
+                margin: 10px auto;
+            }
+        }
+        .box-contacto-uno{
+            margin: 20px;
+            padding: 10px;
+            .iconos-contacto{
+                text-align: center;
+                .iconos{
+                    width: 10%;
+                    color: $secondaryColor;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .formMsj{
+            padding: 5px;
+            .formContent{
+                margin: 10px;
+                font-size: 1.5rem;
+            }
+        }
+        .mapa{
+            text-align: center;
+            iframe{
+                width: 90%;
+                height: 250px;
+            }
+        }
+    }
+    .lista-valores{
+        display: block;
+    }
+    /* Boton */
+    .botonMsj{
+        font-family: inherit;
+        font-size: 20px;
+        background: $secondaryColor;
+        color: $black;
+        padding: 0.7em 1em;
+        padding-left: 0.9em;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.2s;
+        span{
+            display: block;
+            margin-left: 0.3em;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .botonMsj svg {
+        display: block;
+        transform-origin: center center;
+        transition: transform 0.3s ease-in-out;
+    }
+   
+    .botonMsj:hover .svg-flecha {
+        animation: fly-1 0.6s ease-in-out infinite alternate;
+    }
+   
+    .botonMsj:hover svg {
+        transform: translateX(1.2em) rotate(45deg) scale(1.1);
+    }
+   
+    .botonMsj:hover span {
+        transform: translateX(5em);
+    }
+   
+    .botonMsj:active {
+        transform: scale(0.95);
+    }
+   
+    @keyframes fly-1 {
+        from {
+            transform: translateY(0.1em);
+        }
+        to {
+            transform: translateY(-0.1em);
+        }
+    }
+   /* Boton */
+    .cuidadosProducto{
+        margin: 30px 0;
+    }
+    /* Fin MAIN  */
+    /*Aside*/
+    .descuento{
+        width: auto;
+    }    
+    /*Fin Aside*/
+    /*Footer*/
+    .pie-pagina{
+        width: $w-100;
+        .img-cancha{
+            background-image: url(..//img/index/estadio.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 220px !important;
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: center;
+            .titulo-pie{
+                color: $white;
+                font-size: $textMd;
+                margin: 10px;
+                padding: 20px;
+                font-family:  $fontTree;
+            }
+        }
+        .grupo-1{
+            width: $w-100;
+            margin: auto;
+            display: block;
+            text-align: center;
+            padding: 2px;
+            .box{
+                color: black;
+                margin-bottom: 25px;
+                font-size: $textSm;
+                p{
+                    font-family: $fontFour;
+                    font-size: $textSm;
+                }
+                .red-social a{
+                    display: inline;
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    color: $black;
+                    margin-right: 10px;
+                }
+                h3{
+                    font-size: 1.5rem;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:619px) and (max-width: 1023px)
+{
+    .botonera ul li{
+        margin: 4px;
+        display: flex;
+        justify-content: space-around;
+        a{
+            font-size: 13px;
+        }
+    }
+    .navbar-brand .logo-nav{
+        width: 80%;
+    }
+   /*  MAIN  */
+   
+    .nosotros{
+        margin: 30px;
+        padding: 10px;
+        font-size: 1.5rem;
+        color: $white;
+        display: block;
+        .quienesSomos{
+            text-align: center;
+            h2{
+                color: $secondaryColor;
+                font-size: 2.5rem;
+                text-align: center;
+            }
+            .fotoMessi{
+                width: 98%;
+                margin: 20px;
+            }
+        }
+        .box-contacto-uno{
+            margin: 20px;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .iconos-contacto{
+                text-align: center;
+                .iconos{
+                    width: 10%;
+                    color: $secondaryColor;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .formMsj{
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            .formContent{
+                margin: 10px;
+                width: 70%;
+            }
+        }
+        .mapa{
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            iframe{
+                width: 90%;
+                height: 250px;
+            }
+        }
+        .preguntas{
+            text-align: center;
+        }
+    }
+    /* Boton */
+    .botonMsj{
+        font-family: inherit;
+        font-size: 20px;
+        background: $secondaryColor;
+        color: $black;
+        padding: 0.7em 1em;
+        padding-left: 0.9em;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.2s;
+        span{
+            display: block;
+            margin-left: 0.3em;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .botonMsj svg{
+        display: block;
+        transform-origin: center center;
+        transition: transform 0.3s ease-in-out;
+    }
+   
+    .botonMsj:hover .svg-flecha {
+        animation: fly-1 0.6s ease-in-out infinite alternate;
+    }
+   
+    .botonMsj:hover svg {
+        transform: translateX(1.2em) rotate(45deg) scale(1.1);
+    }
+   
+    .botonMsj:hover span {
+        transform: translateX(5em);
+    }
+   
+    .botonMsj:active {
+        transform: scale(0.95);
+    }
+   
+    @keyframes fly-1 {
+        from {
+            transform: translateY(0.1em);
+        }
+        to {
+        transform: translateY(-0.1em);
+        }
+    }
+   /* Boton */
+    .cuidadosProducto{
+        margin: 30px 0;
+    }
+    /* Fin MAIN  */
+    /*Aside*/
+    .descuento{
+        width: auto;
+    }
+    /*Fin Aside*/
+    /*Footer*/
+    .pie-pagina{
+       display: block;
+       .img-cancha{
+            background-image: url(..//img/index/estadio.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 250px;
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: center;
+            .titulo-pie{
+                color: $white;
+                font-size: $textMd;
+                margin: 10px;
+                padding: 20px;
+                font-family:  $fontTree;
+            }
+            .grupo-1{
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                align-content: center;
+                .box{
+                    color: $black;
+                    margin-bottom: 25px;
+                    font-size: 18px;
+                    p{
+                        font-family: $fontFour;
+                        font-size: 18px;
+                    }
+                    .red-social a{
+                        display: inline;
+                        text-decoration: none;
+                        font-size: 1.5em;
+                        color: $black;
+                        margin-right: 10px;
+                    }
+                    h3{
+                        font-family: $fontTree;
+                        color: $black;
+                        font-style: $fontStyle;
+                    }
+                }
+            }
+        }
+    }
+    /*Fin Footer*/
+}
+
+@media (min-width: 1024px)
+{
+    header a img{
+        width: 45%;
+        height: auto;
+        margin: 20px;
+    }
+    .botonera ul li{
+        margin: 10px;
+        a{
+            font-size: 20px;
+        }
+    }
+    /*  MAIN  */
+    .nosotros{
+        margin: 30px;
+        padding: 10px;
+        font-size: 1.5rem;
+        color: white;
+        .quienesSomos{
+            display: flex;
+            .text-quienessomos{
+                display: block;
+                line-height: 200%;
+                margin: 10px;
+                h2{
+                    color: $secondaryColor;
+                    font-size: 2.5rem;
+                    text-align: center;
+                }
+            }
+            .fotoMessi{
+                width: 50vw;
+                height: 40vh;
+            }
+        }
+        .box-contacto-uno{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 50px auto;
+            .iconos-contacto{
+                text-align: center;
+                .iconos{
+                    width: 14%;
+                    color: $secondaryColor;
+                    margin: 5px;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        
+        .mapa{
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            iframe{
+                width: 40vw;
+                height: 350px;
+            }
+        }
+        .box-contacto-dos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .formMsj{
+                width: 35%;
+                padding: 5px;
+                .formContent{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    /* Boton */
+    .botonMsj{
+        font-family: inherit;
+        font-size: 20px;
+        background: $secondaryColor;
+        color: $black;
+        padding: 0.7em 1em;
+        padding-left: 0.9em;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.2s;
+        span{
+            display: block;
+            margin-left: 0.3em;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .botonMsj svg {
+        display: block;
+        transform-origin: center center;
+        transition: transform 0.3s ease-in-out;
+    }
+   
+    .botonMsj:hover .svg-flecha {
+        animation: fly-1 0.6s ease-in-out infinite alternate;
+    }
+   
+    .botonMsj:hover svg {
+        transform: translateX(1.2em) rotate(45deg) scale(1.1);
+    }
+   
+    .botonMsj:hover span {
+        transform: translateX(5em);
+    }
+   
+    .botonMsj:active {
+        transform: scale(0.95);
+    }
+   
+    @keyframes fly-1 {
+        from {
+            transform: translateY(0.1em);
+        }
+        to {
+            transform: translateY(-0.1em);
+        }
+    }
+   /* Boton */
+    .cuidadosProducto{
+        margin: 30px 0;
+    }
+    /* Fin MAIN  */
+     /*Aside*/
+     .descuento{
+        width: auto;
+    }
+    /*  Footer */
+    footer {
+        width: $w-100;
+        height: 150px;
+        background-color: $secondaryColor;
+        display: grid;
+    }
+    .pie-pagina{
+        display: block;
+        .img-cancha{
+            background-image: url(..//img/index/estadio.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: $w-100;
+            height: 550px;
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: center;
+            .titulo-pie{
+                color: $white;
+                font-size: $textXxl;
+                margin: 30px;
+                padding: 20px;
+                font-family: $fontTree;
+            }
+        }
+        .grupo-1{
+            width: $w-100;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 50px;
+            padding: 45px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .box{
+                color: $black;
+                margin-bottom: 25px;
+                font-size: 20px;
+                p{
+                    font-family: $fontFour;
+                    font-size: 1.4rem;
+                }
+                .red-social a{
+                    display: inline;
+                    text-decoration: none;
+                    font-size: 2em;
+                    color: $black;
+                    margin-right: 10px;
+                }
+            }
+        }   
+    }
+}
+
+
+
+   
+
+
+
+
+
+
+
