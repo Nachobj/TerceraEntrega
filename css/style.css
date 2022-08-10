@@ -572,9 +572,27 @@ aside {
     grid-template-areas: "principal" "contenido" "formulario" "aside" "contacto";
   }
   /* Header  */
+  .navbar-brand .logo-nav {
+    width: 40%;
+  }
   .botonera img {
-    width: 350px;
+    width: 50%;
     margin: 15px;
+  }
+  .navbar .dropdown-menu {
+    background-color: black;
+  }
+  .navbar-nav {
+    margin-right: 20px;
+  }
+  .nav-color {
+    background-color: black;
+  }
+  .bot-color {
+    color: yellow !important;
+  }
+  .navbar-toggler-icon {
+    background-color: yellow;
   }
   .botonera ul li a {
     color: yellow;
@@ -592,21 +610,6 @@ aside {
     color: white;
     font-weight: 600;
     background-size: 100% 2px;
-  }
-  .navbar .dropdown-menu {
-    background-color: black;
-  }
-  .navbar-nav {
-    margin-right: 20px;
-  }
-  .nav-color {
-    background-color: black;
-  }
-  .bot-color {
-    color: yellow !important;
-  }
-  .navbar-toggler-icon {
-    background-color: yellow;
   }
   /* Fin Header  */
   /* Main*/
@@ -2627,7 +2630,6 @@ aside {
   }
   .formCompra .text-compra {
     color: yellow;
-    font-style: italic;
   }
   .infoCompra {
     grid-area: infoCompra;

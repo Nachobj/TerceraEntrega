@@ -445,26 +445,12 @@ footer{
     }
     /* Header  */ 
    
-    .botonera img{
-        width: 350px;
-        margin: 15px;
+    .navbar-brand .logo-nav{
+        width: 40%;
     }
-    .botonera ul li a{
-        color: $secondaryColor;
-        text-decoration: none;
-        font-family: $fontTwo;
-        line-height: 1.6rem;
-        font-weight: 200;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;
-        &:hover{
-            color: $white;
-            font-weight: 600;
-            background-size: 100% 2px;
-        }
+    .botonera img{
+        width: $w-50;
+        margin: 15px;
     }
     .navbar .dropdown-menu{
         background-color: $black;
@@ -479,7 +465,24 @@ footer{
         color: $secondaryColor !important;
     }
     .navbar-toggler-icon{
-        background-color: $secondaryColor;
+       background-color: $secondaryColor;
+    }
+    .botonera ul li a{
+        color: $secondaryColor;
+        text-decoration: none;
+        font-family: $fontTwo;
+        line-height: 1.6rem;
+        font-weight: 200;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        &:hover{
+            color: white;
+            font-weight: 600;
+            background-size: 100% 2px;
+        }
     }
     
      /* Fin Header  */   
