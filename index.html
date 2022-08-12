@@ -8,11 +8,12 @@
     <meta name="keywords" content="Camisetas, Fútbol, Equipos, Selecciones">
     <title>A Todo Fútbol</title>
     <link rel="shortcut icon" href="./img/index/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
 </head>
 
 <body>
@@ -20,39 +21,44 @@
     <div class="caja">
       <!--header-->
       <header class="principal">
-      <!--INICIA NAVBAR-->
-        <nav class="navbar navbar-expand-md nav-color botonera">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="./index.html">
-              <img src="./img/index/logo.jpg" alt="Acceso al Inicio mediante el logo de A Todo Futbol" class="logo-nav wow animate__bounceOut">
-            </a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link bot-color" href="./index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link bot-color" href="./pages/selecciones.html">SELECCIONES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link bot-color" href="./pages/equipos.html">EQUIPOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link bot-color" href="./pages/carrito.html">CARRITO</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link bot-color" href="./pages/nosotros.html">NOSOTROS</a>
-                  </li>
-                </ul>
-              </div>
-          </div>
-        </nav>
-          <!--FIN NAVBAR-->
-          <div class="slider"></div> 
-      </header>
+        <!--INICIA NAVBAR-->
+        
+          <nav class="navbar navbar-expand-md" id="botonera">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./img/index/logo.jpg" alt="Acceso al Inicio mediante el logo de A Todo Futbol" class="logo-nav wow animate__bounceOut">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg viewBox="0 0 100 80" class="btnBurguer">
+                  <rect></rect>
+                  <rect y="30"></rect>
+                  <rect y="60"></rect>
+                </svg>
+              </button>
+              <div class="collapse col navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link bot-color " href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link bot-color" href="./pages/selecciones.html">SELECCIONES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link bot-color" href="./pages/equipos.html">EQUIPOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link bot-color" href="./pages/carrito.html">CARRITO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link bot-color" href="./pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+            <!--FIN NAVBAR-->
+            <div class="slider"></div> 
+        </header>
       <!--fin header-->
       <!--main-->
       <main class="contenido" id="centro">

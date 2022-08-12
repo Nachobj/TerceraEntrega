@@ -135,46 +135,47 @@ aside{
     .pie-pagina{
         grid-area: contacto;
     }
-    .navbar-brand .logo-nav{
-        width: 40%;
+    #botonera{
+        background-color: black;
+        height: 100px;
     }
-    .botonera img{
-        width: $w-50;
-        margin: 15px;
+    .logo-nav{
+        width: 240px;
     }
-    .navbar .dropdown-menu{
-        background-color: $black;
-    }
-    .navbar-nav{
-        margin-right: 20px;
-    }
-    .nav-color{
-        background-color:$black;
-    }
-    .bot-color{
-        color: $secondaryColor !important;
-    }
-    .navbar-toggler-icon{
-       background-color: $secondaryColor;
-    }
-    .botonera ul li a{
-        color: $secondaryColor;
+    .navbar-brand{
         text-decoration: none;
-        font-family: $fontTwo;
+        font-size: 1.8rem;
+        color: white;
+    }
+    #botonera button{
+        border: none;
+    }
+    #botonera ul li a{
+        color: yellow;
+        font-size: 0.9rem;
         line-height: 1.6rem;
-        font-weight: 200;
+        font-weight: 350;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
         background-repeat: no-repeat;
         background-size: 0% 2px;
         transition: background-size .3s;
-        &:hover{
-            color: white;
-            font-weight: 600;
-            background-size: 100% 2px;
-        }
     }
-    
+    #botonera ul li a:hover{
+        color: white;
+        font-weight: 600;
+        background-size: 100% 1px;
+    }
+    .btnBurguer{
+        width: 40px;
+        height: 40px;
+        fill: yellow;
+        border: none;
+    }
+    rect{
+        width: 90%;
+        height: 10px;
+    }      
     /* fin header*/
     /**menu*/
     h1{
@@ -444,47 +445,55 @@ footer{
         "contacto";
     }
     /* Header  */ 
-   
-    .navbar-brand .logo-nav{
-        width: 40%;
+    #botonera{
+        background-color: black;
+        height: 100px;
     }
-    .botonera img{
-        width: $w-50;
-        margin: 15px;
+    #botonera button{
+        border: none;
     }
-    .navbar .dropdown-menu{
-        background-color: $black;
-    }
-    .navbar-nav{
-        margin-right: 20px;
-    }
-    .nav-color{
-        background-color:$black;
-    }
-    .bot-color{
-        color: $secondaryColor !important;
-    }
-    .navbar-toggler-icon{
-       background-color: $secondaryColor;
-    }
-    .botonera ul li a{
-        color: $secondaryColor;
+    .navbar-brand{
         text-decoration: none;
-        font-family: $fontTwo;
+        font-size: 2rem;
+        margin: 0 5px;
+        color: white;
+        display: flex;
+    }
+    .logo-nav{
+        width: 260px;
+    }
+    #botonera ul{
+        margin: 0 10px;
+    }
+    #botonera ul li{
+        margin: 2px;
+    }
+    #botonera ul li a{
+        font-size: 1rem;
+        color: yellow;
         line-height: 1.6rem;
-        font-weight: 200;
+        font-weight: 350;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
         background-repeat: no-repeat;
         background-size: 0% 2px;
         transition: background-size .3s;
-        &:hover{
-            color: white;
-            font-weight: 600;
-            background-size: 100% 2px;
-        }
     }
-    
+    #botonera ul li a:hover{
+        color: white;
+        font-weight: 600;
+        background-size: 100% 2px;
+    }
+    .btnBurguer{
+        width: 40px;
+        height: 40px;
+        fill: yellow;
+        border: none;
+    }
+    rect{
+        width: 90%;
+        height: 10px;
+    }  
      /* Fin Header  */   
     /* Main*/    
     .titulo-dest{
@@ -554,7 +563,7 @@ footer{
                         display: block;
                         position: absolute;
                         color: map-get($map: $paleta, $key: colorCuatro);
-                        background-color: rgba(128, 128, 128, 0.559);
+                        background-color: map-get($map: $paleta, $key: colorTres);
                         padding: 12px 12px;
                         letter-spacing: 4px;
                         text-transform: uppercase;
@@ -735,49 +744,53 @@ footer{
         padding: 10px;
     }
     /* Header */
-    .botonera ul li a{
-        color: $secondaryColor;
+    #botonera{
+        background-color: black;
+        height: 110px;
+    }
+    .navbar-brand{
         text-decoration: none;
-        font-family: $fontTwo;
-        font-size: 16px;
+        font-size: 2.5rem;
+        margin: 0 10px;
+        color: white;
+        .logo-nav{
+            width: 60%;
+        }
+    }
+    #botonera ul{
+        margin: 0 20px;
+    }
+    #botonera ul li{
+        margin: 5px;
+    }
+    #botonera ul li a{
+        font-size: 1.5rem;
+        color: yellow;
         line-height: 1.6rem;
-        font-weight: 200;
+        font-weight: 350;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
         background-repeat: no-repeat;
         background-size: 0% 2px;
         transition: background-size .3s;
-        &:hover{
-            color: $white;
+    }
+    #botonera ul li a:hover{
+            color: white;
             font-weight: 600;
             background-size: 100% 2px;
-        }
-    }
-    .botonera img{
-        width: 350px;
-        margin: 15px;
-    }
-    .navbar-brand .logo-nav{
-        width: 50%;
-    }
-    .navbar .dropdown-menu{
-        background-color: $black;
     }
 
-    .navbar-nav{
-        margin-right: 20px;
-    }
-    .nav-color{
-        background-color: $black;
-    }
- 
-    .bot-color{
-        color: $secondaryColor !important;
-    }
 
-    .navbar-toggler-icon{
-        background-color: $secondaryColor;
-    }
+.btnBurguer{
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+}
+rect{
+    width: 90%;
+    height: 10px;
+}
    
     /* Fin header  */
     /* Menu */
@@ -976,7 +989,6 @@ footer{
     /*Footer*/
     footer .grupo-1{
         width: $w-100;
-        height: 150px;
         background-color: $secondaryColor;
         display: grid;
     }

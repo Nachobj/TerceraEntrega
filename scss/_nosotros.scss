@@ -17,9 +17,7 @@
     }
     .navbar-brand{
         display: contents;
-        .logo-nav{
-            width: 74%;
-        }
+        
     }    
     /*  MAIN  */
    
@@ -70,6 +68,11 @@
                 height: 250px;
             }
         }
+    }
+    .subNosotros{
+        color: map-get($map: $paleta, $key: colorDos);
+        text-align: center;
+        font-size: 2rem;
     }
     .lista-valores{
         display: block;
@@ -194,9 +197,7 @@
             font-size: 13px;
         }
     }
-    .navbar-brand .logo-nav{
-        width: 80%;
-    }
+    
    /*  MAIN  */
    
     .nosotros{
@@ -253,6 +254,11 @@
         }
         .preguntas{
             text-align: center;
+        }
+        .subNosotros{
+            color: map-get($map: $paleta, $key: colorDos);
+            text-align: center;
+            font-size: 2.5rem;
         }
     }
     /* Boton */
@@ -445,6 +451,12 @@
                 }
             }
         }
+        .subNosotros{
+            color: map-get($map: $paleta, $key: colorDos);
+            font-size: 2.8rem;
+            margin: 10px 0;
+            padding: 5px;
+        }
     }
     /* Boton */
     .botonMsj{
@@ -508,7 +520,6 @@
     /*  Footer */
     footer {
         width: $w-100;
-        height: 150px;
         background-color: $secondaryColor;
         display: grid;
     }

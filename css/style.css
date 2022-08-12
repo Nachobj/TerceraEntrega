@@ -51,14 +51,6 @@ h3 {
   color: black;
 }
 
-.ban-mar {
-  width: 100%;
-}
-
-.ban-log-mar {
-  width: 90%;
-}
-
 /*Extends*/
 .btnGeneral, .btnCodigo, .btnCompra, .btnNewslwtter {
   display: flex;
@@ -263,44 +255,46 @@ aside {
   .pie-pagina {
     grid-area: contacto;
   }
-  .navbar-brand .logo-nav {
-    width: 40%;
-  }
-  .botonera img {
-    width: 50%;
-    margin: 15px;
-  }
-  .navbar .dropdown-menu {
+  #botonera {
     background-color: black;
+    height: 100px;
   }
-  .navbar-nav {
-    margin-right: 20px;
+  .logo-nav {
+    width: 240px;
   }
-  .nav-color {
-    background-color: black;
-  }
-  .bot-color {
-    color: yellow !important;
-  }
-  .navbar-toggler-icon {
-    background-color: yellow;
-  }
-  .botonera ul li a {
-    color: yellow;
+  .navbar-brand {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    color: white;
+  }
+  #botonera button {
+    border: none;
+  }
+  #botonera ul li a {
+    color: yellow;
+    font-size: 0.9rem;
     line-height: 1.6rem;
-    font-weight: 200;
+    font-weight: 350;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
   }
-  .botonera ul li a:hover {
+  #botonera ul li a:hover {
     color: white;
     font-weight: 600;
-    background-size: 100% 2px;
+    background-size: 100% 1px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /* fin header*/
   /**menu*/
@@ -572,44 +566,54 @@ aside {
     grid-template-areas: "principal" "contenido" "formulario" "aside" "contacto";
   }
   /* Header  */
-  .navbar-brand .logo-nav {
-    width: 40%;
-  }
-  .botonera img {
-    width: 50%;
-    margin: 15px;
-  }
-  .navbar .dropdown-menu {
+  #botonera {
     background-color: black;
+    height: 100px;
   }
-  .navbar-nav {
-    margin-right: 20px;
+  #botonera button {
+    border: none;
   }
-  .nav-color {
-    background-color: black;
-  }
-  .bot-color {
-    color: yellow !important;
-  }
-  .navbar-toggler-icon {
-    background-color: yellow;
-  }
-  .botonera ul li a {
-    color: yellow;
+  .navbar-brand {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: white;
+    display: flex;
+  }
+  .logo-nav {
+    width: 260px;
+  }
+  #botonera ul {
+    margin: 0 10px;
+  }
+  #botonera ul li {
+    margin: 2px;
+  }
+  #botonera ul li a {
+    font-size: 1rem;
+    color: yellow;
     line-height: 1.6rem;
-    font-weight: 200;
+    font-weight: 350;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
   }
-  .botonera ul li a:hover {
+  #botonera ul li a:hover {
     color: white;
     font-weight: 600;
     background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /* Fin Header  */
   /* Main*/
@@ -684,7 +688,7 @@ aside {
     display: block;
     position: absolute;
     color: rgb(232, 251, 54);
-    background-color: rgba(128, 128, 128, 0.559);
+    background-color: white;
     padding: 12px 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -853,45 +857,50 @@ aside {
     padding: 10px;
   }
   /* Header */
-  .botonera ul li a {
-    color: yellow;
+  #botonera {
+    background-color: black;
+    height: 110px;
+  }
+  .navbar-brand {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    color: white;
+  }
+  .navbar-brand .logo-nav {
+    width: 60%;
+  }
+  #botonera ul {
+    margin: 0 20px;
+  }
+  #botonera ul li {
+    margin: 5px;
+  }
+  #botonera ul li a {
+    font-size: 1.5rem;
+    color: yellow;
     line-height: 1.6rem;
-    font-weight: 200;
+    font-weight: 350;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
   }
-  .botonera ul li a:hover {
+  #botonera ul li a:hover {
     color: white;
     font-weight: 600;
     background-size: 100% 2px;
   }
-  .botonera img {
-    width: 350px;
-    margin: 15px;
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
   }
-  .navbar-brand .logo-nav {
-    width: 50%;
-  }
-  .navbar .dropdown-menu {
-    background-color: black;
-  }
-  .navbar-nav {
-    margin-right: 20px;
-  }
-  .nav-color {
-    background-color: black;
-  }
-  .bot-color {
-    color: yellow !important;
-  }
-  .navbar-toggler-icon {
-    background-color: yellow;
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /* Fin header  */
   /* Menu */
@@ -1086,7 +1095,6 @@ aside {
   /*Footer*/
   footer .grupo-1 {
     width: 100%;
-    height: 150px;
     background-color: yellow;
     display: grid;
   }
@@ -1192,10 +1200,6 @@ aside {
   }
   .botonera ul li a {
     font-size: 12px;
-  }
-  header a img {
-    display: flex;
-    width: 300px;
   }
   .ban-sel {
     width: 100%;
@@ -1422,9 +1426,6 @@ aside {
   }
   .botonera ul li a {
     font-size: 13px;
-  }
-  .navbar-brand .logo-nav {
-    width: 80%;
   }
   .ban-sel {
     width: 100%;
@@ -1800,7 +1801,6 @@ aside {
   /*  Footer */
   footer {
     width: 100%;
-    height: 150px;
     background-color: yellow;
     display: grid;
   }
@@ -1907,10 +1907,6 @@ aside {
   }
   .botonera ul li a {
     font-size: 12px;
-  }
-  header a img {
-    display: flex;
-    width: 300px;
   }
   .ban-equipos {
     width: 100%;
@@ -2051,9 +2047,6 @@ aside {
   }
   .botonera ul li a {
     font-size: 13px;
-  }
-  .navbar-brand .logo-nav {
-    width: 80%;
   }
   .ban-equipos {
     width: 100%;
@@ -2252,7 +2245,6 @@ aside {
   /*  Footer */
   footer {
     width: 100%;
-    height: 150px;
     background-color: yellow;
     display: grid;
   }
@@ -2316,7 +2308,7 @@ aside {
     align-items: center;
   }
   .botonera .logo-nav {
-    width: 80%;
+    width: 70%;
   }
   .botonera ul li {
     margin-right: 16px;
@@ -2460,16 +2452,21 @@ aside {
     grid-template-areas: "formCompra" "infoCompra";
   }
   /*Header*/
-  .botonera ul li {
-    margin: 4px;
+  .botonera {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .botonera ul li {
+    margin-right: 16px;
   }
   .botonera ul li a {
-    font-size: 13px;
+    font-size: 12px;
   }
-  .navbar-brand .logo-nav {
-    width: 80%;
+  .botonera ul li a img {
+    display: flex;
+    width: 300px;
   }
   /*Fin Header*/
   /*Main*/
@@ -2616,7 +2613,7 @@ aside {
     padding: 10px;
   }
   .fondo-img {
-    background-image: url(../img/pag-retros/fondo-compra2.jpg);
+    background-image: url(../img/header/fondo-carrito.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -2688,7 +2685,6 @@ aside {
   /*  Footer */
   footer {
     width: 100%;
-    height: 150px;
     background-color: yellow;
     display: grid;
   }
@@ -2760,9 +2756,6 @@ aside {
   .navbar-brand {
     display: contents;
   }
-  .navbar-brand .logo-nav {
-    width: 74%;
-  }
   /*  MAIN  */
   .nosotros {
     margin: 30px;
@@ -2811,6 +2804,11 @@ aside {
   .nosotros .mapa iframe {
     width: 90%;
     height: 250px;
+  }
+  .subNosotros {
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
   }
   .lista-valores {
     display: block;
@@ -2928,9 +2926,6 @@ aside {
   .botonera ul li a {
     font-size: 13px;
   }
-  .navbar-brand .logo-nav {
-    width: 80%;
-  }
   /*  MAIN  */
   .nosotros {
     margin: 30px;
@@ -2987,6 +2982,11 @@ aside {
   }
   .nosotros .preguntas {
     text-align: center;
+  }
+  .nosotros .subNosotros {
+    color: yellow;
+    text-align: center;
+    font-size: 2.5rem;
   }
   /* Boton */
   .botonMsj {
@@ -3171,6 +3171,12 @@ aside {
   .nosotros .box-contacto-dos .formMsj .formContent {
     margin: 10px;
   }
+  .nosotros .subNosotros {
+    color: yellow;
+    font-size: 2.8rem;
+    margin: 10px 0;
+    padding: 5px;
+  }
   /* Boton */
   .botonMsj {
     font-family: inherit;
@@ -3228,7 +3234,6 @@ aside {
   /*  Footer */
   footer {
     width: 100%;
-    height: 150px;
     background-color: yellow;
     display: grid;
   }
