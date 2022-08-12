@@ -137,7 +137,7 @@ aside{
     }
     #botonera{
         background-color: black;
-        height: 100px;
+        
     }
     .logo-nav{
         width: 240px;
@@ -162,7 +162,7 @@ aside{
         transition: background-size .3s;
     }
     #botonera ul li a:hover{
-        color: white;
+        color: rgb(251, 255, 3);
         font-weight: 600;
         background-size: 100% 1px;
     }
@@ -447,7 +447,6 @@ footer{
     /* Header  */ 
     #botonera{
         background-color: black;
-        height: 100px;
     }
     #botonera button{
         border: none;
@@ -480,7 +479,7 @@ footer{
         transition: background-size .3s;
     }
     #botonera ul li a:hover{
-        color: white;
+        color: rgb(251, 255, 3);
         font-weight: 600;
         background-size: 100% 2px;
     }
@@ -775,9 +774,9 @@ footer{
         transition: background-size .3s;
     }
     #botonera ul li a:hover{
-            color: white;
-            font-weight: 600;
-            background-size: 100% 2px;
+        color: rgb(251, 255, 3);
+        font-weight: 600;
+        background-size: 100% 2px;
     }
 
 
