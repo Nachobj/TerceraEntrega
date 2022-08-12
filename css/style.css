@@ -1184,20 +1184,45 @@ aside {
     grid-template-columns: 100%;
   }
   /*Header*/
-  .botonera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #botonera {
+    background-color: black;
   }
-  .botonera .logo-nav {
-    width: 80%;
+  .logo-nav {
+    width: 240px;
   }
-  .botonera ul li {
-    margin-right: 16px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 12px;
+  #botonera button {
+    border: none;
+  }
+  #botonera ul li a {
+    color: yellow;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 1px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-sel {
     width: 100%;
@@ -1417,13 +1442,53 @@ aside {
     padding: 0;
     overflow: hidden;
   }
-  .botonera ul li {
-    margin: 4px;
-    display: flex;
-    justify-content: space-around;
+  #botonera {
+    background-color: black;
   }
-  .botonera ul li a {
-    font-size: 13px;
+  #botonera button {
+    border: none;
+  }
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: white;
+    display: flex;
+  }
+  .logo-nav {
+    width: 260px;
+  }
+  #botonera ul {
+    margin: 0 10px;
+  }
+  #botonera ul li {
+    margin: 2px;
+  }
+  #botonera ul li a {
+    font-size: 1rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-sel {
     width: 100%;
@@ -1640,11 +1705,50 @@ aside {
     height: auto;
     margin: 20px;
   }
-  .botonera ul li {
-    margin: 10px;
+  #botonera {
+    background-color: black;
+    height: 110px;
   }
-  .botonera ul li a {
-    font-size: 20px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    color: white;
+  }
+  .navbar-brand .logo-nav {
+    width: 60%;
+  }
+  #botonera ul {
+    margin: 0 20px;
+  }
+  #botonera ul li {
+    margin: 5px;
+  }
+  #botonera ul li a {
+    font-size: 1.5rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-sel {
     width: 100%;
@@ -1891,20 +1995,45 @@ aside {
     grid-template-columns: 100%;
   }
   /*Header*/
-  .botonera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #botonera {
+    background-color: black;
   }
-  .botonera .logo-nav {
-    width: 80%;
+  .logo-nav {
+    width: 240px;
   }
-  .botonera ul li {
-    margin-right: 16px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 12px;
+  #botonera button {
+    border: none;
+  }
+  #botonera ul li a {
+    color: yellow;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 1px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-equipos {
     width: 100%;
@@ -2038,13 +2167,53 @@ aside {
     padding: 0;
     overflow: hidden;
   }
-  .botonera ul li {
-    margin: 4px;
-    display: flex;
-    justify-content: space-around;
+  #botonera {
+    background-color: black;
   }
-  .botonera ul li a {
-    font-size: 13px;
+  #botonera button {
+    border: none;
+  }
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: white;
+    display: flex;
+  }
+  .logo-nav {
+    width: 260px;
+  }
+  #botonera ul {
+    margin: 0 10px;
+  }
+  #botonera ul li {
+    margin: 2px;
+  }
+  #botonera ul li a {
+    font-size: 1rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-equipos {
     width: 100%;
@@ -2166,19 +2335,50 @@ aside {
     grid-template-rows: auto;
     grid-template-areas: "header header" "section main" "aside aside" "contacto contacto";
   }
-  header a img {
-    width: 45%;
-    height: auto;
-    margin: 20px;
+  #botonera {
+    background-color: black;
+    height: 110px;
   }
-  .botonera ul li {
-    margin: 10px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 20px;
+  .navbar-brand .logo-nav {
+    width: 60%;
   }
-  .ban-sel {
-    width: 100%;
+  #botonera ul {
+    margin: 0 20px;
+  }
+  #botonera ul li {
+    margin: 5px;
+  }
+  #botonera ul li a {
+    font-size: 1.5rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   .ban-equipos {
     width: 100%;
@@ -2299,24 +2499,45 @@ aside {
 /*CSS CARRITO*/
 @media (max-width: 618px) {
   /*Header*/
-  .botonera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #botonera {
+    background-color: black;
   }
-  .botonera .logo-nav {
-    width: 70%;
+  .logo-nav {
+    width: 240px;
   }
-  .botonera ul li {
-    margin-right: 16px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 12px;
+  #botonera button {
+    border: none;
   }
-  .botonera ul li a img {
-    display: flex;
-    width: 300px;
+  #botonera ul li a {
+    color: yellow;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 1px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*Fin Header*/
   /*Main*/
@@ -2450,21 +2671,53 @@ aside {
     grid-template-areas: "formCompra" "infoCompra";
   }
   /*Header*/
-  .botonera {
+  #botonera {
+    background-color: black;
+  }
+  #botonera button {
+    border: none;
+  }
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
-  .botonera ul li {
-    margin-right: 16px;
+  .logo-nav {
+    width: 260px;
   }
-  .botonera ul li a {
-    font-size: 12px;
+  #botonera ul {
+    margin: 0 10px;
   }
-  .botonera ul li a img {
-    display: flex;
-    width: 300px;
+  #botonera ul li {
+    margin: 2px;
+  }
+  #botonera ul li a {
+    font-size: 1rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*Fin Header*/
   /*Main*/
@@ -2590,16 +2843,50 @@ aside {
 }
 @media (min-width: 1024px) {
   /*Header*/
-  header a img {
-    width: 45%;
-    height: auto;
-    margin: 20px;
+  #botonera {
+    background-color: black;
+    height: 110px;
   }
-  .botonera ul li {
-    margin: 10px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 20px;
+  .navbar-brand .logo-nav {
+    width: 60%;
+  }
+  #botonera ul {
+    margin: 0 20px;
+  }
+  #botonera ul li {
+    margin: 5px;
+  }
+  #botonera ul li a {
+    font-size: 1.5rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*Fin Header*/
   /*Main*/
@@ -2739,20 +3026,45 @@ aside {
 /*CSS NOSOTROS*/
 @media (max-width: 618px) {
   /*Header*/
-  .botonera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #botonera {
+    background-color: black;
   }
-  .botonera ul li {
-    margin-right: 16px;
-  }
-  .botonera ul li a {
-    font-size: 12px;
+  .logo-nav {
+    width: 240px;
   }
   .navbar-brand {
-    display: contents;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+  }
+  #botonera button {
+    border: none;
+  }
+  #botonera ul li a {
+    color: yellow;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 1px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*  MAIN  */
   .nosotros {
@@ -2916,13 +3228,53 @@ aside {
   }
 }
 @media (min-width: 619px) and (max-width: 1023px) {
-  .botonera ul li {
-    margin: 4px;
-    display: flex;
-    justify-content: space-around;
+  #botonera {
+    background-color: black;
   }
-  .botonera ul li a {
-    font-size: 13px;
+  #botonera button {
+    border: none;
+  }
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 5px;
+    color: white;
+    display: flex;
+  }
+  .logo-nav {
+    width: 260px;
+  }
+  #botonera ul {
+    margin: 0 10px;
+  }
+  #botonera ul li {
+    margin: 2px;
+  }
+  #botonera ul li a {
+    font-size: 1rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*  MAIN  */
   .nosotros {
@@ -3095,16 +3447,50 @@ aside {
   /*Fin Footer*/
 }
 @media (min-width: 1024px) {
-  header a img {
-    width: 45%;
-    height: auto;
-    margin: 20px;
+  #botonera {
+    background-color: black;
+    height: 110px;
   }
-  .botonera ul li {
-    margin: 10px;
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    color: white;
   }
-  .botonera ul li a {
-    font-size: 20px;
+  .navbar-brand .logo-nav {
+    width: 60%;
+  }
+  #botonera ul {
+    margin: 0 20px;
+  }
+  #botonera ul li {
+    margin: 5px;
+  }
+  #botonera ul li a {
+    font-size: 1.5rem;
+    color: yellow;
+    line-height: 1.6rem;
+    font-weight: 350;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  #botonera ul li a:hover {
+    color: rgb(251, 255, 3);
+    font-weight: 600;
+    background-size: 100% 2px;
+  }
+  .btnBurguer {
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+  }
+  rect {
+    width: 90%;
+    height: 10px;
   }
   /*  MAIN  */
   .nosotros {

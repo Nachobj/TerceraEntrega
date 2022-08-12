@@ -2,25 +2,47 @@
 @media (max-width:618px)
 {
     /*Header*/
-    .botonera{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .logo-nav{
-            width: 70%;
-        }
-        ul li{
-            margin-right: 16px;
-            a{
-                font-size: 12px;
-                img{
-                    display: flex;
-                    width: 300px;
-                }
-            }
-        }
+    #botonera{
+        background-color: black;
+        
     }
+    .logo-nav{
+        width: 240px;
+    }
+    .navbar-brand{
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: white;
+    }
+    #botonera button{
+        border: none;
+    }
+    #botonera ul li a{
+        color: yellow;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        font-weight: 350;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    #botonera ul li a:hover{
+        color: rgb(251, 255, 3);
+        font-weight: 600;
+        background-size: 100% 1px;
+    }
+    .btnBurguer{
+        width: 40px;
+        height: 40px;
+        fill: yellow;
+        border: none;
+    }
+    rect{
+        width: 90%;
+        height: 10px;
+    }      
     /*Fin Header*/
     /*Main*/
     .fondo-img{
@@ -159,23 +181,54 @@
         "infoCompra";
     }
     /*Header*/
-    .botonera{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        ul li{
-            margin-right: 16px;
-            a{
-                font-size: 12px;
-                img{
-                    display: flex;
-                    width: 300px;
-                }
-            }
-        }
+    #botonera{
+        background-color: black;
     }
+    #botonera button{
+        border: none;
+    }
+    .navbar-brand{
+        text-decoration: none;
+        font-size: 2rem;
+        margin: 0 5px;
+        color: white;
+        display: flex;
+    }
+    .logo-nav{
+        width: 260px;
+    }
+    #botonera ul{
+        margin: 0 10px;
+    }
+    #botonera ul li{
+        margin: 2px;
+    }
+    #botonera ul li a{
+        font-size: 1rem;
+        color: yellow;
+        line-height: 1.6rem;
+        font-weight: 350;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    #botonera ul li a:hover{
+        color: rgb(251, 255, 3);
+        font-weight: 600;
+        background-size: 100% 2px;
+    }
+    .btnBurguer{
+        width: 40px;
+        height: 40px;
+        fill: yellow;
+        border: none;
+    }
+    rect{
+        width: 90%;
+        height: 10px;
+    }  
     /*Fin Header*/
     /*Main*/
     .fondo-img{
@@ -301,17 +354,53 @@
 
 @media (min-width: 1024px){
     /*Header*/
-    header a img{
-        width: 45%;
-        height: auto;
-        margin: 20px;
+    #botonera{
+        background-color: black;
+        height: 110px;
     }
-    .botonera ul li{
-        margin: 10px;
-        a{
-            font-size: 20px;
+    .navbar-brand{
+        text-decoration: none;
+        font-size: 2.5rem;
+        margin: 0 10px;
+        color: white;
+        .logo-nav{
+            width: 60%;
         }
     }
+    #botonera ul{
+        margin: 0 20px;
+    }
+    #botonera ul li{
+        margin: 5px;
+    }
+    #botonera ul li a{
+        font-size: 1.5rem;
+        color: yellow;
+        line-height: 1.6rem;
+        font-weight: 350;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    #botonera ul li a:hover{
+        color: rgb(251, 255, 3);
+        font-weight: 600;
+        background-size: 100% 2px;
+    }
+
+
+.btnBurguer{
+    width: 40px;
+    height: 40px;
+    fill: yellow;
+    border: none;
+}
+rect{
+    width: 90%;
+    height: 10px;
+}
     /*Fin Header*/
     /*Main*/
     .contenedor-compra{
